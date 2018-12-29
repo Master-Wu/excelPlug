@@ -10,9 +10,15 @@ pymysql、xlrd、xlwt的正确安装，即相关数据库以及excel文件操作
 导入数据库excel地址:
 write_to_db(路径或file_contentsexcel=文件流, table名称, 数据库各字段名列表\['id','name','xxx',等 \])
 return 成功数量
-导出为excel:
+
+数据库取值导出为excel:
 write_to_excel(table名, excel表头各字段命名列表\[ "id","姓名","xxx",等 \], filePath="导出文件路径", sqlWhere="你的筛选条件select xx,xxx,vgf from table名 where xxxxx")
 return 如传入文件路径则返回导出数量
 return 未指定路径则返回excel文件流?
 
 暂时就这么着吧, 还代码没写完, 老子吃饭去了
+
+将model/object导出为excel:
+object_to_excel(obj, filePath="文件路径")
+return excel文件流
+return 指定了文件路径则仅返回1/0
