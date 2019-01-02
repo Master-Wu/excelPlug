@@ -23,4 +23,4 @@ object_to_excel(obj, filePath="文件路径")
 return excel文件流
 return 指定了文件路径则仅返回1/0
 
-我决定不写了, 发现一个库,"XlsxWrite". 读的话根据各人自己需求xls/xlsx随便来写一会写完, 写excel直接xlsxWrite得了,
+我决定不写了, 发现一个库,"XlsxWrite". 读的话根据各人自己需求xls/xlsx随便来写一会写完, 写excel直接xlsxWrite得了,2019-01-02
